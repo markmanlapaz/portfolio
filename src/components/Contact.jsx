@@ -12,10 +12,10 @@ const Contact = () => {
                 <div className="text-gray-300 my-3">
                     <h3 className="text-5xl font-semibold mb-5">About <span className="text-blue-600">Me</span></h3>
                     <p className="text-justify leading-7 w-11/12 mx-auto mb-3">
-                    Yeow, I’m Mark! A global pandemic and a career shift later… life has led me to become a junior full-stack web developer. Stepping into something new hasn’t been easy, but I’m all in—eager to learn, grow, and refine my craft every step of the way.
+                    Yoyo, I’m Mark! A global pandemic and a career shift later… life has led me to become a junior full-stack web developer. Stepping into something new hasn’t been easy, but I’m all in—eager to learn, grow, and refine my craft every step of the way.
                     </p>
                     <p className="text-justify leading-7 w-11/12 mx-auto mb-3">
-                     When I’m not fighting with code, you can usually find me binge-watching anime like it's a full-time job, learning how to edit photos and videos, or fully embracing the fine art of doing absolutely nothing.
+                     When I’m not fighting with code, you can usually find me binge-watching anime like it's a full-time job, playing around in Adobe Lighroom, or fully embracing the fine art of doing absolutely nothing.
                     </p>
                     <p className="text-justify leading-7 w-11/12 mx-auto mb-3">
                       I also enjoy sushi and napping. And cats.

@@ -15,7 +15,7 @@ const projects = [
     description: "Rebuilt from the ground up, utilizing agile methodology, Figma, WordPress, Github. A group effort managed with Trello and Toggl.",
     links: {
       site: "https://pirates-rugby.web.dmitcapstone.ca/pirates-rugby/",
-      github: "#",
+      // github: "#",
     },
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description: "A rapid, simple WordPress build for a local events service. Testing knowledge in UX/UI principles, brand identity, and WordPress.",
     links: {
       site: "https://solanayeg.com/",
-      github: "#",
+      // github: "#",
     },
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     description: "Built on React + Vite, utilizing TailwindCSS and Framer Motion.",
     links: {
       site: "#",
-      github: "#",
+      github: "https://github.com/markmanlapaz/portfolio",
     },
   },
 ];
