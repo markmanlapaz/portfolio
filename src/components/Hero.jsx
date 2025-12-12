@@ -63,7 +63,7 @@ export const Hero = () => {
                         transition={{ duration: 1, delay: 1 }}
                         className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                     >
-                        I'm a junior web developer and designer, which basically means I can build cool websites while pretending to know what I’m doing.
+                        I'm a web developer and designer who builds clean, functional websites—without making things more complicated than they need to be.
                     </motion.p>
 
                     <motion.p
@@ -73,7 +73,7 @@ export const Hero = () => {
                         transition={{ duration: 1, delay: 1 }}
                         className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                     >
-                        But seriously, I’m passionate about creating smooth, user-friendly experiences and always up for learning new tricks along the way!                    </motion.p>
+                        I’m all about creating smooth, user-friendly experiences, and I’m always picking up new skills along the way—<span className="text-blue-600">steady, curious, and always improving.</span>                    </motion.p>
 
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
@@ -84,22 +84,22 @@ export const Hero = () => {
                     >
                         <motion.button whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                             className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                                     border-blue-500 rounded-xl"
+                                     border-blue-500 rounded-xl inline-flex items-center"
                         >
                             <a href="/markmanlapaz-cv.pdf" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                                 Download CV
                             </a>                        </motion.button>
 
                         <div className="flex gap-6 flex-row text-4xl md:text-6xl text-gray-500 z-20">
-                            <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/markmanlapaz">
+                            <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/markmanlapaz" aria-label="Mark Manlapaz GitHub Profile" target="_blank" rel="noopener noreferrer">
                                 <AiOutlineGithub />
                             </motion.a>
 
-                            <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/mark-manlapaz-50b277191/">
+                            <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/mark-manlapaz-50b277191/" aria-label="Mark Manlapaz LinkedIn Profile" target="_blank" rel="noopener noreferrer">
                                 <AiOutlineLinkedin />
                             </motion.a>
 
-                            <motion.a whileHover={{ scale: 1.2 }} href="https://www.instagram.com/cheeese.jpeg">
+                            <motion.a whileHover={{ scale: 1.2 }} href="https://www.instagram.com/cheeese.jpeg" aria-label="Mark Manlapaz Instagram Profile" target="_blank" rel="noopener noreferrer">
                                 <AiOutlineInstagram />
                             </motion.a>
                         </div>

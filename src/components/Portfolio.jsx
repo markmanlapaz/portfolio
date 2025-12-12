@@ -21,10 +21,10 @@ const projects = [
   {
     id: 2,
     img: project2,
-    title: "Solana YEG",
-    description: "A rapid, simple WordPress build for a local events service. Testing knowledge in UX/UI principles, brand identity, and WordPress.",
+    title: "Peak View Fencing",
+    description: "Designed on WordPress and strengthened with strategic SEO, this local fencing and decking website drives high-intent traffic, captures leads effectively, and has delivered results beyond the client’s expectations.",
     links: {
-      site: "https://solanayeg.com/",
+      site: "https://peakviewfencing.ca/",
       // github: "#",
     },
   },
@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     img: project3,
     title: "Portfolio",
-    description: "Built on React + Vite, utilizing TailwindCSS and Framer Motion.",
+    description: "Built on React + Vite, utilizing TailwindCSS and Framer Motion. This, along with what I learned in school, helped me more understand how to use React. It was a good intro to Framer, and made for a clean site.",
     links: {
       site: "#",
       github: "https://github.com/markmanlapaz/portfolio",
@@ -42,8 +42,8 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className='max-w-[1000px] mx-auto p-6 md:my-20' id="portfolio">
-      <h2 className='text-3xl font-bold text-gray-200 mb-8'>Portfolio</h2>
+    <div className='max-w-[1100px] mx-auto p-6 md:my-20' id="portfolio">
+      <h2 className='text-3xl font-bold text-gray-200 mb-8'>Projects</h2>
       {projects.map((project) => (
         <Reveal key={project.id}>
           <div className={`flex flex-col md:flex-row ${project.id % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}>
